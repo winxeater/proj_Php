@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-11-12 06:06:07
+/* Smarty version 3.1.31, created on 2017-11-19 05:53:49
   from "/opt/lampp/htdocs/ecomm/view/layout.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a07d6bf542e22_48631060',
+  'unifunc' => 'content_5a110e5d03d861_10273037',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '921cd75a65186b3f6876a480c3585474d4e9eaea' => 
     array (
       0 => '/opt/lampp/htdocs/ecomm/view/layout.tpl',
-      1 => 1510463161,
+      1 => 1511067226,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a07d6bf542e22_48631060 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a110e5d03d861_10273037 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -67,7 +67,7 @@ function content_5a07d6bf542e22_48631060 (Smarty_Internal_Template $_smarty_tpl)
 							<li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
 /checkout">Checkout</a></li>					
 							<li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
-/register">Entrar</a></li>		
+/login">Entrar</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -122,7 +122,7 @@ function content_5a07d6bf542e22_48631060 (Smarty_Internal_Template $_smarty_tpl)
 							<li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
 /cart">Carrinho</a></li>
 							<li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
-/register">Entrar/Registre-se</a></li>							
+/login">Entrar/Registre-se</a></li>							
 						</ul>					
 					</div>
 					<div class="span4">

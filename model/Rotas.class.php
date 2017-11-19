@@ -26,7 +26,7 @@ Class Rotas{
 	}
 
 	static function pag_Login(){
-		return self::get_SiteHome().'/register';
+		return self::get_SiteHome().'/login';
 	}
 
 	static function pag_Conta(){

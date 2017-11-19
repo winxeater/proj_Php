@@ -34,7 +34,7 @@
 							<li><a href="{$GET_HOME}">Página Inicial</a></li>
 							<li><a href="{$GET_HOME}/cart">Carrinho</a></li>
 							<li><a href="{$GET_HOME}/checkout">Checkout</a></li>					
-							<li><a href="{$GET_HOME}/register">Entrar</a></li>		
+							<li><a href="{$GET_HOME}/login">Entrar</a></li>		
 						</ul>
 					</div>
 				</div>
@@ -82,7 +82,7 @@
 							<li><a href="{$GET_HOME}/contact">Sobre Nós</a></li>
 							<li><a href="{$GET_HOME}/contact">Contate-nos</a></li>
 							<li><a href="{$GET_HOME}/cart">Carrinho</a></li>
-							<li><a href="{$GET_HOME}/register">Entrar/Registre-se</a></li>							
+							<li><a href="{$GET_HOME}/login">Entrar/Registre-se</a></li>							
 						</ul>					
 					</div>
 					<div class="span4">

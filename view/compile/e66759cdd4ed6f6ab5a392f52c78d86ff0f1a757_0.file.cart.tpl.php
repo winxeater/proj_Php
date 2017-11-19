@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-11-12 06:15:28
+/* Smarty version 3.1.31, created on 2017-11-13 01:54:52
   from "/opt/lampp/htdocs/ecomm/view/cart.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a07d8f0304416_64367338',
+  'unifunc' => 'content_5a08ed5c225535_41376103',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e66759cdd4ed6f6ab5a392f52c78d86ff0f1a757' => 
     array (
       0 => '/opt/lampp/htdocs/ecomm/view/cart.tpl',
-      1 => 1510463698,
+      1 => 1510464037,
       2 => 'file',
     ),
   ),
@@ -20,16 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a07d8f0304416_64367338 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_loadInheritance();
-$_smarty_tpl->inheritance->init($_smarty_tpl, true);
+function content_5a08ed5c225535_41376103 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 			<section class="header_text sub">
 			<img class="pageBanner" src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
 /themes/images/pageBanner.png" alt="Novos Produtos" >
-				<h4><span><?php echo $_smarty_tpl->tpl_vars['SET_TITULO']->value;?>
-</span></h4>
+				<h4><span>cart pag</span></h4>
 			</section>
 			<section class="main-content">				
 				<div class="row">
@@ -180,6 +177,5 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 				})
 			});
 		<?php echo '</script'; ?>
->	<?php $_smarty_tpl->inheritance->endChild($_smarty_tpl, 'layout.tpl');
-}
+>	<?php }
 }
