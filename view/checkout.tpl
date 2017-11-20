@@ -1,6 +1,6 @@
 							
 			<section class="header_text sub">
-			<img class="pageBanner" src="themes/images/pageBanner.png" alt="" >
+			<img class="pageBanner" src="{$GET_TEMP}/themes/images/pageBanner.png" alt="" >
 				<h4><span>Check Out</span></h4>
 			</section>	
 			<section class="main-content">

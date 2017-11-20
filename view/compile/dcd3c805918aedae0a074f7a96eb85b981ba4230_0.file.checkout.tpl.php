@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-11-20 06:29:09
+/* Smarty version 3.1.31, created on 2017-11-20 07:27:49
   from "/opt/lampp/htdocs/ecomm/view/checkout.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a12682516e2e5_47157112',
+  'unifunc' => 'content_5a1275e51beb82_88345404',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dcd3c805918aedae0a074f7a96eb85b981ba4230' => 
     array (
       0 => '/opt/lampp/htdocs/ecomm/view/checkout.tpl',
-      1 => 1511155745,
+      1 => 1511159266,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a12682516e2e5_47157112 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a1275e51beb82_88345404 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 							
 			<section class="header_text sub">
-			<img class="pageBanner" src="themes/images/pageBanner.png" alt="" >
+			<img class="pageBanner" src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
+/themes/images/pageBanner.png" alt="" >
 				<h4><span>Check Out</span></h4>
 			</section>	
 			<section class="main-content">
