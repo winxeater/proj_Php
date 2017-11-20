@@ -1,6 +1,6 @@
 							
 			<section class="header_text sub">
-			<img class="pageBanner" src="themes/images/pageBanner.png" alt="New products" >
+			<img class="pageBanner" src="themes/images/pageBanner.png" alt="" >
 				<h4><span>Check Out</span></h4>
 			</section>	
 			<section class="main-content">
@@ -38,13 +38,13 @@
 														<div class="control-group">
 															<label class="control-label">Login</label>
 															<div class="controls">
-																<input type="text" placeholder="Enter your username" id="username" class="input-xlarge">
+																<input type="text" placeholder="Digite seu username" id="username" class="input-xlarge">
 															</div>
 														</div>
 														<div class="control-group">
 															<label class="control-label">Senha</label>
 															<div class="controls">
-															<input type="password" placeholder="Enter your password" id="password" class="input-xlarge">
+															<input type="password" placeholder="Digite sua senha" id="password" class="input-xlarge">
 															</div>
 														</div>
 														<button class="btn btn-inverse">Continue</button>

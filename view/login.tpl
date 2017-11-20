@@ -1,7 +1,7 @@
 
 			<section class="header_text sub">
-			<img class="pageBanner" src="themes/images/pageBanner.png" alt="New products" >
-				<h4><span>Login or Regsiter</span></h4>
+			<img class="pageBanner" src="themes/images/pageBanner.png" alt="" >
+				<h4><span>Entre ou Registre-se</span></h4>
 			</section>			
 			<section class="main-content">				
 				<div class="row">
@@ -13,17 +13,17 @@
 								<div class="control-group">
 									<label class="control-label">Nome de Usuario</label>
 									<div class="controls">
-										<input type="text" placeholder="Enter your username" id="username" class="input-xlarge">
+										<input type="text" placeholder="Digite seu username" id="username" class="input-xlarge">
 									</div>
 								</div>
 								<div class="control-group">
 									<label class="control-label">Nome de Usuario</label>
 									<div class="controls">
-										<input type="password" placeholder="Enter your password" id="password" class="input-xlarge">
+										<input type="password" placeholder="Digite sua senha" id="password" class="input-xlarge">
 									</div>
 								</div>
 								<div class="control-group">
-									<input tabindex="3" class="btn btn-inverse large" type="submit" value="Sign into your account">
+									<input tabindex="3" class="btn btn-inverse large" type="submit" value="Entrar">
 									<hr>
 									<p class="reset">Recuperar <a tabindex="4" href="#" title="Recover your username or password">Usuario ou Senha</a></p>
 								</div>
@@ -37,26 +37,26 @@
 								<div class="control-group">
 									<label class="control-label">Nome de Usuario</label>
 									<div class="controls">
-										<input type="text" placeholder="Enter your username" class="input-xlarge">
+										<input type="text" placeholder="Digite seu username" class="input-xlarge">
 									</div>
 								</div>
 								<div class="control-group">
 									<label class="control-label">E-mail:</label>
 									<div class="controls">
-										<input type="password" placeholder="Enter your email" class="input-xlarge">
+										<input type="password" placeholder="Digite um e-mail" class="input-xlarge">
 									</div>
 								</div>
 								<div class="control-group">
 									<label class="control-label">Senha:</label>
 									<div class="controls">
-										<input type="password" placeholder="Enter your password" class="input-xlarge">
+										<input type="password" placeholder="Digite sua senha" class="input-xlarge">
 									</div>
 								</div>							                            
 								<div class="control-group">
 									<p>Poiséeeéééééé´e</p>
 								</div>
 								<hr>
-								<div class="actions"><input tabindex="9" class="btn btn-inverse large" type="submit" value="Create your account"></div>
+								<div class="actions"><input tabindex="9" class="btn btn-inverse large" type="submit" value="Criar conta"></div>
 							</fieldset>
 						</form>					
 					</div>				

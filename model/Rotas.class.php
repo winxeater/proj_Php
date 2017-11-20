@@ -17,6 +17,10 @@ Class Rotas{
 		return self::get_SiteHome().'/'.self::$pasta_view;
 	}
 
+	static function get_Index(){
+		return self::get_SiteHome().'/index';
+	}
+
 	static function pag_Cart(){
 		return self::get_SiteHome().'/cart';
 	}
@@ -37,13 +41,13 @@ Class Rotas{
 		return self::get_SiteHome().'/contact';
 	}
 
-	static function pag_Product_Detail(){
-		return self::get_SiteHome().'/product_detail';
-	}
+	// static function pag_Product_Detail(){
+	// 	return self::get_SiteHome().'/product_detail';
+	// }
 
-	static function pag_Products(){
-		return self::get_SiteHome().'/products';
-	}
+	// static function pag_Products(){
+	// 	return self::get_SiteHome().'/products';
+	// }
 
 	//static function pag_Register(){
 		//return self::get_SiteHome().'register';

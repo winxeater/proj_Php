@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+<head>
 		<meta charset="utf-8">
-		<title>qlqr coisa</title>
+		<title>Matheus e-Comm</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
 		<!-- bootstrap -->
+
 		<link href="{$GET_TEMP}/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>      
 		<link href="{$GET_TEMP}/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet"/>
 		
 		<link href="{$GET_TEMP}/themes/css/bootstrappage.css" rel="stylesheet"/>
-		
+			
 		<!-- global styles -->
 		<link href="{$GET_TEMP}/themes/css/main.css" rel="stylesheet"/>
 		<link href="{$GET_TEMP}/themes/css/flexslider.css" rel="stylesheet"/>
@@ -19,7 +20,7 @@
 		<!-- scripts -->
 		
 		
-	</head>
+</head>
     <body>		
 		<div id="top-bar" class="container">
 			<div class="row">
@@ -71,12 +72,13 @@
 
 			{php}
 				Rotas::get_Pag();
+				Rotas::get_Index();
 			{/php}
 			
 			<section id="footer-bar">
 				<div class="row">
 					<div class="span3">
-						<h4>Navigation</h4>
+						<h4>Navegaçao</h4>
 						<ul class="nav">
 							<li><a href="{$GET_HOME}">Página Inicial</a></li>  
 							<li><a href="{$GET_HOME}/contact">Sobre Nós</a></li>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-11-12 06:06:27
+/* Smarty version 3.1.31, created on 2017-11-20 06:01:44
   from "/opt/lampp/htdocs/ecomm/view/index.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a07d6d3b3b605_43425850',
+  'unifunc' => 'content_5a1261b8c4e123_27733659',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '66bdd129a00cf17f3f69a1472a88df11bfd7015f' => 
     array (
       0 => '/opt/lampp/htdocs/ecomm/view/index.tpl',
-      1 => 1510462887,
+      1 => 1511154099,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,11 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a07d6d3b3b605_43425850 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a1261b8c4e123_27733659 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
+
+
+
 			<section  class="homepage-slider" id="home-slider">
 				<div class="flexslider">
 					<ul class="slides">

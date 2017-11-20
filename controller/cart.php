@@ -1,5 +1,6 @@
 <?php 
+$smarty = new Template();
 // $smarty->assign('SET_TITULO', Config::SITE_NOME);
-// $smarty->display('cart.tpl');
+$smarty->display('cart.tpl');
 
 

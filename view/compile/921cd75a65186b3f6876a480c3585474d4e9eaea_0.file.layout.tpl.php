@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-11-19 05:53:49
+/* Smarty version 3.1.31, created on 2017-11-20 06:33:58
   from "/opt/lampp/htdocs/ecomm/view/layout.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a110e5d03d861_10273037',
+  'unifunc' => 'content_5a12694625e945_51164394',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '921cd75a65186b3f6876a480c3585474d4e9eaea' => 
     array (
       0 => '/opt/lampp/htdocs/ecomm/view/layout.tpl',
-      1 => 1511067226,
+      1 => 1511155929,
       2 => 'file',
     ),
   ),
@@ -20,17 +20,18 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a110e5d03d861_10273037 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a12694625e945_51164394 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
-	<head>
+<head>
 		<meta charset="utf-8">
-		<title>qlqr coisa</title>
+		<title>Matheus e-Comm</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="">
 		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
 		<!-- bootstrap -->
+
 		<link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
 /bootstrap/css/bootstrap.min.css" rel="stylesheet"/>      
 		<link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
@@ -38,7 +39,7 @@ function content_5a110e5d03d861_10273037 (Smarty_Internal_Template $_smarty_tpl)
 		
 		<link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
 /themes/css/bootstrappage.css" rel="stylesheet"/>
-		
+			
 		<!-- global styles -->
 		<link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
 /themes/css/main.css" rel="stylesheet"/>
@@ -48,7 +49,7 @@ function content_5a110e5d03d861_10273037 (Smarty_Internal_Template $_smarty_tpl)
 		<!-- scripts -->
 		
 		
-	</head>
+</head>
     <body>		
 		<div id="top-bar" class="container">
 			<div class="row">
@@ -106,12 +107,13 @@ function content_5a110e5d03d861_10273037 (Smarty_Internal_Template $_smarty_tpl)
 
 			<?php 
 				Rotas::get_Pag();
+				Rotas::get_Index();
 			?>
 			
 			<section id="footer-bar">
 				<div class="row">
 					<div class="span3">
-						<h4>Navigation</h4>
+						<h4>Navegaçao</h4>
 						<ul class="nav">
 							<li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
 ">Página Inicial</a></li>  
