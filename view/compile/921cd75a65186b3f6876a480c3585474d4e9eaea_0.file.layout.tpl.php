@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-11-20 06:33:58
+/* Smarty version 3.1.31, created on 2017-11-20 07:08:58
   from "/opt/lampp/htdocs/ecomm/view/layout.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a12694625e945_51164394',
+  'unifunc' => 'content_5a12717aa955f5_29491971',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '921cd75a65186b3f6876a480c3585474d4e9eaea' => 
     array (
       0 => '/opt/lampp/htdocs/ecomm/view/layout.tpl',
-      1 => 1511155929,
+      1 => 1511158133,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a12694625e945_51164394 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a12717aa955f5_29491971 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,6 +47,35 @@ function content_5a12694625e945_51164394 (Smarty_Internal_Template $_smarty_tpl)
 /themes/css/flexslider.css" rel="stylesheet"/>
 
 		<!-- scripts -->
+		<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
+/themes/js/jquery-1.7.2.min.js"><?php echo '</script'; ?>
+>
+		<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
+/bootstrap/js/bootstrap.min.js"><?php echo '</script'; ?>
+>				
+		<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
+/themes/js/superfish.js"><?php echo '</script'; ?>
+>	
+		<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
+/themes/js/jquery.scrolltotop.js"><?php echo '</script'; ?>
+>
+					
+		<?php echo '<script'; ?>
+ src="http://html5shim.googlecode.com/svn/trunk/html5.js"><?php echo '</script'; ?>
+>
+		
+		<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
+/themes/js/common.js"><?php echo '</script'; ?>
+>
+		<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
+/themes/js/jquery.flexslider-min.js"><?php echo '</script'; ?>
+>
 		
 		
 </head>
@@ -154,35 +183,8 @@ function content_5a12694625e945_51164394 (Smarty_Internal_Template $_smarty_tpl)
 				<span>Copyright 2013 bootstrappage template edited by Matheus Gabriel Aguiar.</span>
 			</section>
 		</div>
-		<?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
-/themes/js/jquery-1.7.2.min.js"><?php echo '</script'; ?>
->
-		<?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
-/bootstrap/js/bootstrap.min.js"><?php echo '</script'; ?>
->				
-		<?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
-/themes/js/superfish.js"><?php echo '</script'; ?>
->	
-		<?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
-/themes/js/jquery.scrolltotop.js"><?php echo '</script'; ?>
->
-					
-		<?php echo '<script'; ?>
- src="http://html5shim.googlecode.com/svn/trunk/html5.js"><?php echo '</script'; ?>
->
+
 		
-		<?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
-/themes/js/common.js"><?php echo '</script'; ?>
->
-		<?php echo '<script'; ?>
- src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
-/themes/js/jquery.flexslider-min.js"><?php echo '</script'; ?>
->
 		
     </body>
 </html><?php }

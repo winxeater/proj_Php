@@ -18,6 +18,15 @@
 		<link href="{$GET_TEMP}/themes/css/flexslider.css" rel="stylesheet"/>
 
 		<!-- scripts -->
+		<script src="{$GET_TEMP}/themes/js/jquery-1.7.2.min.js"></script>
+		<script src="{$GET_TEMP}/bootstrap/js/bootstrap.min.js"></script>				
+		<script src="{$GET_TEMP}/themes/js/superfish.js"></script>	
+		<script src="{$GET_TEMP}/themes/js/jquery.scrolltotop.js"></script>
+					
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		
+		<script src="{$GET_TEMP}/themes/js/common.js"></script>
+		<script src="{$GET_TEMP}/themes/js/jquery.flexslider-min.js"></script>
 		
 		
 </head>
@@ -113,15 +122,8 @@
 				<span>Copyright 2013 bootstrappage template edited by Matheus Gabriel Aguiar.</span>
 			</section>
 		</div>
-		<script src="{$GET_TEMP}/themes/js/jquery-1.7.2.min.js"></script>
-		<script src="{$GET_TEMP}/bootstrap/js/bootstrap.min.js"></script>				
-		<script src="{$GET_TEMP}/themes/js/superfish.js"></script>	
-		<script src="{$GET_TEMP}/themes/js/jquery.scrolltotop.js"></script>
-					
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
 		
-		<script src="{$GET_TEMP}/themes/js/common.js"></script>
-		<script src="{$GET_TEMP}/themes/js/jquery.flexslider-min.js"></script>
 		
     </body>
 </html>

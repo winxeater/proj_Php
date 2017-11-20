@@ -1,7 +1,7 @@
 
 			<section class="header_text sub">
 			<img class="pageBanner" src="{$GET_TEMP}/themes/images/pageBanner.png" alt="Novos Produtos" >
-				<h4><span>cart pag</span></h4>
+				<h4><span>Carrinho</span></h4>
 			</section>
 			<section class="main-content">				
 				<div class="row">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-11-13 01:54:52
+/* Smarty version 3.1.31, created on 2017-11-20 06:56:41
   from "/opt/lampp/htdocs/ecomm/view/cart.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a08ed5c225535_41376103',
+  'unifunc' => 'content_5a126e990b4519_75628936',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e66759cdd4ed6f6ab5a392f52c78d86ff0f1a757' => 
     array (
       0 => '/opt/lampp/htdocs/ecomm/view/cart.tpl',
-      1 => 1510464037,
+      1 => 1511157398,
       2 => 'file',
     ),
   ),
@@ -20,13 +20,13 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a08ed5c225535_41376103 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a126e990b4519_75628936 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 			<section class="header_text sub">
 			<img class="pageBanner" src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMP']->value;?>
 /themes/images/pageBanner.png" alt="Novos Produtos" >
-				<h4><span>cart pag</span></h4>
+				<h4><span>Carrinho</span></h4>
 			</section>
 			<section class="main-content">				
 				<div class="row">
