@@ -4,7 +4,7 @@
 				<iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d471300.13442635466!2d-44.070202927342045!3d-22.6525842962645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1511155152010"></iframe>
 			</section>
 			<section class="header_text sub">
-			<img class="pageBanner" src="themes/images/pageBanner.png" alt="" >
+			
 				<h4><span>Contate-nos</span></h4>
 			</section>
 			<section class="main-content">				
@@ -26,7 +26,7 @@
 					</div>
 					<div class="span7">
 						<p>Mande-nos uma mensagem !</p>
-						<form method="post" action="#">
+						<form method="post" action="envio">
 							<fieldset>
 								<div class="clearfix">
 									<label for="name"><span>Nome:</span></label>

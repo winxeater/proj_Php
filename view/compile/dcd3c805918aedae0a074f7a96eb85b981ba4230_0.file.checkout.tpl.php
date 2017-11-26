@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.31, created on 2017-11-20 07:27:49
+/* Smarty version 3.1.31, created on 2017-11-26 06:13:20
   from "/opt/lampp/htdocs/ecomm/view/checkout.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.31',
-  'unifunc' => 'content_5a1275e51beb82_88345404',
+  'unifunc' => 'content_5a1a4d7040ee74_30527632',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a1275e51beb82_88345404 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a1a4d7040ee74_30527632 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 							
 			<section class="header_text sub">

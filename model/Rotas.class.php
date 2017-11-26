@@ -41,6 +41,30 @@ Class Rotas{
 		return self::get_SiteHome().'/contact';
 	}
 
+	static function get_Img(){
+		return 'img/';
+	}
+
+	static function get_ImgURL(){
+		return self::get_SiteHome().'/'.self::get_Img();
+	}
+
+	static function get_ImgLink($img, $alt, $larg){
+		$img=self::get_ImgURL()."thumb.php?src={$img}&w={$larg}&h={$alt}&zc=1";
+		return $img;
+	}
+
+	// static function pag_Produto(){
+	// 	return self::get_SiteHome().'/produtos';
+	// }
+	
+	static function get_Controller(){
+		return self::get_SiteHome().'/'.self::$pasta_controller;
+	}
+	// static function get_Envio(){
+	// 	return self::get_Controller().'/envio';
+	// }
+
 	// static function pag_Product_Detail(){
 	// 	return self::get_SiteHome().'/product_detail';
 	// }

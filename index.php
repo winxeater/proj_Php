@@ -12,6 +12,7 @@ $smarty->assign('GET_HOME', Rotas::get_SiteHome());
 
 
 
+
 $smarty->display('layout.tpl');
 
 

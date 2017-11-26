@@ -11,18 +11,18 @@ class ComposerStaticInit844f9577838b0f54d4f2e348e6b23fb8
     );
 
     public static $classMap = array (
+        'Conexao' => __DIR__ . '/../..' . '/model/Conexao.class.php',
         'Config' => __DIR__ . '/../..' . '/model/Config.class.php',
         'Config_Cart' => __DIR__ . '/../..' . '/model/Cart.class.php',
         'Config_Checkout' => __DIR__ . '/../..' . '/model/Checkout.class.php',
         'Config_Contact' => __DIR__ . '/../..' . '/model/Contact.class.php',
         'Config_Login' => __DIR__ . '/../..' . '/model/Register.class.php',
-        'Config_Prod' => __DIR__ . '/../..' . '/model/Produtos.class.php',
-        'Config_Prod_D' => __DIR__ . '/../..' . '/model/Product_D.class.php',
         'EasyPeasyICS' => __DIR__ . '/..' . '/phpmailer/phpmailer/extras/EasyPeasyICS.php',
         'PHPMailer' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmailer.php',
         'PHPMailerOAuth' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauth.php',
         'PHPMailerOAuthGoogle' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.phpmaileroauthgoogle.php',
         'POP3' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.pop3.php',
+        'Produtos' => __DIR__ . '/../..' . '/model/Produtos.class.php',
         'Rotas' => __DIR__ . '/../..' . '/model/Rotas.class.php',
         'SMTP' => __DIR__ . '/..' . '/phpmailer/phpmailer/class.smtp.php',
         'Template' => __DIR__ . '/../..' . '/model/Template.class.php',

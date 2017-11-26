@@ -37,7 +37,7 @@
 								</tr>
 								<tr>
 									<td><input type="checkbox" value="option1"></td>
-									<td><a href="#"><img alt="" src="{$GET_}/themes/images/ladies/3.jpg"></a></td>
+									<td><a href="#"><img alt="" src="{$GET_TEMP}/themes/images/ladies/3.jpg"></a></td>
 									<td>Mais um produto qualquer</td>
 									<td><input type="text" placeholder="1" class="input-mini"></td>
 									<td>$1,210.00</td>
@@ -72,8 +72,8 @@
 						</p>
 						<hr/>
 						<p class="buttons center">				
-							<button class="btn" type="button">Atualizar</button>
-							<button class="btn" type="button">Continuar</button>
+							<button class="btn atualiza" type="button" id="atualiza">Atualizar</button>
+							<button class="btn continua" type="button" id="continua">Continuar</button>
 							<button class="btn btn-inverse" type="submit" id="checkout">Checkout</button>
 						</p>					
 					</div>
@@ -124,7 +124,7 @@
 											<li class="span3">
 												<div class="product-box">												
 													<a href="#"><img alt="" src="{$GET_TEMP}/themes/images/ladies/4.jpg"></a><br/>
-													<a href="#" class="title">Produto 2/a><br/>
+													<a href="#" class="title">Produto 2</a><br/>
 													<a href="#" class="category">Categoria 2</a>
 													<p class="price">$134</p>
 												</div>
@@ -140,8 +140,10 @@
 
 		<script>
 			$(document).ready(function() {
-				$('#checktout').click(function (e) {
-					document.location.href = "{$GET_HOME}/checkout";
+				$('#checkout').click(function (e) {
+					document.location.href = "checkout";
 				})
 			});
+			
+			
 		</script>	
